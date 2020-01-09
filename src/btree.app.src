@@ -1,0 +1,11 @@
+{application, btree,
+ [
+  {description, "persistent BTree and B+Tree"},
+  {vsn, "git"},
+  {registered, []},
+  {applications, [crypto]},
+  {env, []},
+  {licenses, ["Apache"]},
+  {links,[{"GitHub","https://github.com/seniverse/btree"}]}
+ ]
+}.
